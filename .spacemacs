@@ -419,6 +419,8 @@ you should place your code here."
 
   (provide 'fira-code-mode)
 
+  (add-hook 'prog-mode-hook 'fira-code-mode)
+
   ;; FIRA CODE LIGATURES END !!
   )
 
